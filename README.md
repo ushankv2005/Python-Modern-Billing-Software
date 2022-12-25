@@ -5,6 +5,7 @@ Modern GUI python billing application powered by eel
 * Beautiful-modern GUI
 * Includes a complex billing system
 * Database included
+* Included CRUD system ( create,read,update,delete )
 
 # Why this application?
 I'm an undergraduate software engineer. I know nowadays lot of people build applications with react,java etc. But, Python is the most popular programming language out there. Sadly, lot of people still don't build proper applications with python. There are multiple ways you can build a python gui out there. Like Tkinter, PyQT5, PySide etc. But, they are pretty old libraries and they don't look good either. So, what I've done? I used a library called 'eel' to build these applications. They look very modern because, for the GUI you can use HTML,CSS,JS. Actually what is 'eel'?
