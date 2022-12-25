@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+main{
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.load{
+    width: 30%;
+}
+.load-text{
+    position: absolute;
+    top: 30%;
+    font-size: 4vh;
+    background: #121FCF;
+    background: linear-gradient(to right, #ffd220 0%,#fa8541 50%, #f454bc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}

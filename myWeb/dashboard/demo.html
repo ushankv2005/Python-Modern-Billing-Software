@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Win-Win Sports Billing
+    </title>
+    <link rel="stylesheet" href="./demo.css" media="screen">
+</head>
+
+<body onload="Cat();">
+
+	<h1 id="dateZ"></h1>
+
+
+
+    <a href="" class="bill">Bill</a>
+			<div class="employee-form" >
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div class="box">
+                        <label class="l1">Product Category</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
+                        <select name="category" id="category">
+
+                        </select>
+
+                    </div>
+                    <div  class="box">
+                        <label class="l2">Sub Category</label>
+                        <select  name="subcat" id="subcat" >
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div class="box">
+                        <label class="l3">Sub.Sub Category</label>
+                        <select name="subsubcat" id="subsubcat">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div class="box">
+                        <label class="l4">Product</label>
+                        <select name="product" id="product">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div class="box">
+                        <input type="number" name="qty" id="qty" placeholder="QTY">
+                    </div>
+                    <div class="box">
+                        <input type="number" name="discount" id="discount" placeholder="Discount">
+                    </div>
+                    <div  class="form-action-buttons">
+                        <button type="submit" class="input1" id="input1">submit</button>
+                    </div>
+                </form>
+                <div class="price-tab">
+                    <h1 class="price-txt">Item Price LKR: <span id="price_num"></span></h1>
+                </div>
+		</div>
+		<br/>
+		<div class = "employees-table" style="overflow-y:auto;">
+                <table class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>Cat.</th>
+                            <th>Sub Cat.</th>
+                            <th>S.S. Cat.</th>
+                            <th>Product</th>
+                            <th>QTY</th>
+                            <th>Discount</th>
+                            <th>Price</th>
+                            <th>Billing No</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+        </div>
+        <div class="calculation">
+            <h1 class="topic">Win Win Sports</h1>
+            <h1 class="amount">Total Amount LKR:</h1>
+            <input class="totalAmount" value = ""/>
+            <img src="./resources/fullscreen.png" class="full" onclick="toggleFullScreen();" alt="">
+            <dash-1></dash-1>
+            <img src="./resources/shop.svg" alt="" class="shop">
+            
+            <h1 class="copyright">&#169; All Rights Reserved | ushanzz @2022</h1>
+        </div>
+
+        </section>
+    <script type="text/javascript" src="/eel.js"></script>
+    <script src="./demo.js"></script>
+</body>
+</html>

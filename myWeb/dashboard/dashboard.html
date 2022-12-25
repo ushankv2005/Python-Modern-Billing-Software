@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./dashboard.css">
+    <link rel="stylesheet" href="./resources/raleway.css">
+</head>
+<body>
+    <main>
+        <div class="side">
+            <img src="./resources/profile.png" alt="" class="user-png">
+            <h1 class="user-name">Demo</h1>
+            <button class="billing" onclick="bill();">Billing</button>
+            <img src="./resources/setting.png" alt="" class="settings">
+            <img src="./resources/logout(1).png" onclick="windowClose();" alt="" class="logout">
+        </div>
+        <div class="dash">
+            <box-1>
+                <h1 id="dateZ"></h1>
+            </box-1>
+            <img src="./resources/Rectangle 1.png" alt="" class="r1">
+            <box-2>
+                <h1 class="news-text">Checkout some <br> Hot News</h1>
+                <button class="newsbtn" onclick="news();">News</button>
+                <img src="./resources/news.svg" alt="" class="news">
+            </box-2>
+            <box-3>
+                <img src="./resources/chart.png" alt="" class="chart">
+            </box-3>
+            <button class="reports">Explore Reports</button>
+            <img src="./resources/Rectangle 1.png" alt="" class="r1">
+            <img src="./resources/Rectangle 1.png" alt="" class="r2">
+            <img src="./resources/Rectangle 1.png" alt="" class="r3">
+            <img src="./resources/Rectangle 1.png" alt="" class="r4">
+            <img src="./resources/Rectangle 1.png" alt="" class="r5">
+            <img src="./resources/Rectangle 1.png" alt="" class="r6">
+            <img src="./resources/Rectangle 1.png" alt="" class="r7">
+            <img src="./resources/Rectangle 1.png" alt="" class="r8">
+            <img src="./resources/Rectangle 1.png" alt="" class="r9">
+            <input type="button" value="Fullscreen" class="fullscreen" onclick="toggleFullScreen()">
+        </div>
+    </main>
+    <script src="./dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+#dateZ{
+    display: none;
+}
+body{
+  width:100%;
+  height:100vh;
+  overflow-x: hidden;;
+}
+.bill{
+    display: none;
+}
+.employee-form{
+    display: none;
+}
+table{
+    border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border-radius: 1vh;
+background: linear-gradient(145deg, #c8c7c4, #eeece9);
+box-shadow:  20px 20px 60px #bdbcb9,
+             -20px -20px 60px #fffefb;
+    color: rgb(0, 0, 0);
+    font-size: 2.5vh;
+    border: 1px solid black;
+    position: absolute;
+    top: 30%;
+}
+.topic{
+    position: absolute;
+    top: 2%;
+}
+.amount{
+    position: absolute;
+    top: 19%;left: 1%;
+    font-size: 4vh;
+}
+.shop{
+    display: none;
+}
+.copyright{
+    display: none;
+}
+.totalAmount{
+    display: none;
+}
+.web{
+    display: none;
+}
+.newcustomer{
+    display: none;
+}
+.customerlist{
+    display: none;
+}
+.dashboard{
+  display: none;
+}
+.full{
+  display: none;
+}
+table th:nth-child(1), table td:nth-child(1){
+    display: none;
+}
+table th:nth-child(2), table td:nth-child(2){
+    display: none;
+}
+table th:nth-child(3), table td:nth-child(3){
+    display: none;
+}
+table th:nth-child(9), table td:nth-child(9){
+    display: none;
+}
+.address{
+  font-size: 3vh;
+  position: absolute;
+  top:10%;
+  left:2%;
+}
+.tele{
+  font-size: 2.5vh;
+  position: absolute;
+  top:2%;
+  right:2%;
+}
+
+.warn{
+  font-size: 2.5vh;
+  position: absolute;
+  top:10%;
+  right:2%;
+  text-align: right;
+}
+.amount{
+  display: none;
+}
+.ta{
+position: absolute;
+top: 19%;
+}
