@@ -17,7 +17,7 @@ Eel is a little Python library for making simple Electron-like HTML/JS GUI apps,
 * Firstly download all the files from the releases or just download above project as a zip.
 * Extract it and you will have a file setup like this
 ![img](https://user-images.githubusercontent.com/118561879/209466502-becd23db-da06-4107-955e-8bcf81bc92ad.png)
-* Then go ahead and forword engineer the demo.mwb
+* Then go ahead and forward engineer the demo.mwb
 * Then open up the demo.py file in a text editor and change the connection details into yours.
 ![code](https://user-images.githubusercontent.com/118561879/209466607-fb2fbb26-3fe5-489e-b778-3d163e7277a2.png)
 * Now you have to install 'eel' library by executing
