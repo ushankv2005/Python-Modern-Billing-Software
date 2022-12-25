@@ -22,6 +22,9 @@ Eel is a little Python library for making simple Electron-like HTML/JS GUI apps,
 ![code](https://user-images.githubusercontent.com/118561879/209466607-fb2fbb26-3fe5-489e-b778-3d163e7277a2.png)
 * Now you have to install 'eel' library by executing
 <code>pip install Eel</code> in terminal (If you haven't installed python , go to python official website by this link => https://www.python.org/downloads/)
+
+![Workspace 1_002](https://user-images.githubusercontent.com/118561879/209467699-b7ae9181-2dff-4abf-9278-9673350576b2.png)
+
 * After that You are Good To Go :)
 * Interface of the billing UI
 ![demo](https://user-images.githubusercontent.com/118561879/209466762-df8e4317-8bc7-47aa-bca4-c290011a49ef.png)
